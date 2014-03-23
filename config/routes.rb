@@ -1,4 +1,12 @@
 PreventionPoint::Application.routes.draw do
+  resources :exchanges
+
+  resources :locations
+
+  resources :visits
+
+  resources :clients
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

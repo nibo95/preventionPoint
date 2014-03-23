@@ -1,0 +1,39 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ultrafines: 1
+  halfs: 1
+  pogos: 1
+  blues: 1
+  one_qt: 1
+  two_qt: 1
+  three_gal: 1
+  alcohol_whipes: 1
+  cookers: 1
+  cottons: 1
+  ties: 1
+  bleach: 1
+  condoms: 1
+  ascorbic_acid: 1
+  pieces_of_lit: 1
+  narcan: 1
+  secondary_exchange: 1
+
+two:
+  ultrafines: 1
+  halfs: 1
+  pogos: 1
+  blues: 1
+  one_qt: 1
+  two_qt: 1
+  three_gal: 1
+  alcohol_whipes: 1
+  cookers: 1
+  cottons: 1
+  ties: 1
+  bleach: 1
+  condoms: 1
+  ascorbic_acid: 1
+  pieces_of_lit: 1
+  narcan: 1
+  secondary_exchange: 1

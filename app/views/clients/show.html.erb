@@ -1,0 +1,79 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Code:</strong>
+  <%= @client.code %>
+</p>
+
+<p>
+  <strong>Birth date:</strong>
+  <%= @client.birth_date %>
+</p>
+
+<p>
+  <strong>Register date:</strong>
+  <%= @client.register_date %>
+</p>
+
+<p>
+  <strong>Register location name:</strong>
+  <%= @client.register_location_name %>
+</p>
+
+<p>
+  <strong>New:</strong>
+  <%= @client.new %>
+</p>
+
+<p>
+  <strong>Gender:</strong>
+  <%= @client.gender %>
+</p>
+
+<p>
+  <strong>How did you hear:</strong>
+  <%= @client.how_did_you_hear %>
+</p>
+
+<p>
+  <strong>Veterancy:</strong>
+  <%= @client.veterancy %>
+</p>
+
+<p>
+  <strong>Neighborhood:</strong>
+  <%= @client.neighborhood %>
+</p>
+
+<p>
+  <strong>Hiv screen:</strong>
+  <%= @client.hiv_screen %>
+</p>
+
+<p>
+  <strong>Hiv pos:</strong>
+  <%= @client.hiv_pos %>
+</p>
+
+<p>
+  <strong>Hep b screen:</strong>
+  <%= @client.hep_b_screen %>
+</p>
+
+<p>
+  <strong>Hep b pos:</strong>
+  <%= @client.hep_b_pos %>
+</p>
+
+<p>
+  <strong>Hep c screen:</strong>
+  <%= @client.hep_c_screen %>
+</p>
+
+<p>
+  <strong>Hep c pos:</strong>
+  <%= @client.hep_c_pos %>
+</p>
+
+<%= link_to 'Edit', edit_client_path(@client) %> |
+<%= link_to 'Back', clients_path %>
