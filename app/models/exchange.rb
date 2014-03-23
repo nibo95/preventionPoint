@@ -1,7 +1,7 @@
 class Exchange < ActiveRecord::Base
+	
 	belongs_to :visit
-<<<<<<< HEAD
-=======
+
 	validates_numericality_of :id
 	validates_numericality_of :ultrafines, :allow_nil=> false, :only_integer => true, :message => "only integer values are permitted"
 	validates_numericality_of :halfs, :allow_nil=> false, :only_integer => true, :message => "only integer values are permitted"
@@ -23,5 +23,5 @@ class Exchange < ActiveRecord::Base
 	validates_presence_of :created_at
 	validates_presence_of :updated_at
 
->>>>>>> 75f596a613226a57d2249e225c718a73b62bb7f1
+
 end
