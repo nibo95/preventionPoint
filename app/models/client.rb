@@ -8,7 +8,7 @@ class Client < ActiveRecord::Base
 	validates_date :register_date
 	validates_presence_of :register_location_name
 	validates_presence_of :gender
-	validates_format_of :gender, with: /^[MFT]$/, message: "Please select valid gender option"
+	validates_format_of :gender, with: /\A[MFT]\z/, message: "Please select valid gender option"
 	validates_presence_of :veterancy
 	validates_presence_of :new 
 	validates_presence_of :neighborhood
